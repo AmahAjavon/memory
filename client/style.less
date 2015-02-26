@@ -1,0 +1,119 @@
+
+body {
+    background: url('/images/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin:50px 0px; padding:0px;
+    text-align:center;
+
+}
+
+#controls{
+  padding: 10px;
+}
+
+button{
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  font-size: 3rem;
+  margin-right: 15px;
+  border-radius: 15px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+
+#timing{
+  display: inline-block;
+  font-size: 4em;
+  height: 100px;
+  width: 100px;
+  line-height: 107px;
+  border-radius: 100px;
+  margin: auto;
+  position: relative;
+  top: 0; left: 0; bottom: 0; right: 0;
+  text-align: center;
+  background: transparent;
+}
+
+.front{
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background: url('/images/front.jpg');
+  box-shadow: 2px 2px 8px #000000;
+  // padding: 10px;
+  // margin: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.back{
+  width: 100px;
+  height: 100px;
+  display: block;
+  display: inline-block;
+  box-shadow: 2px 2px 8px #000000;
+  text-align: center;
+  background-size: cover;
+  border-radius: 10px;
+
+}
+
+.name{
+  color: red;
+}
+
+/* entire container, keeps perspective */
+.flip-container {
+  perspective: 1000;
+  display: inline-block;
+  margin: 20px;
+
+}
+  /* flip the pane when pressed */
+.turned {
+  transform: rotateY(180deg);
+}
+
+.same {
+  transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  // margin: 10px;
+
+}
+
+/* flip speed goes here */
+.flipper {
+  transition: 0.5s;
+  transform-style: preserve-3d;
+
+  position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+  backface-visibility: hidden;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+  z-index: 2;
+  /* for firefox 31 */
+  transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+  transform: rotateY(180deg);
+}
