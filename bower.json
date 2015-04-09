@@ -1,9 +1,9 @@
 {
-  "name": "prototype",
+  "name": "Simple Memory Game",
   "version": "1.0.0",
-  "homepage": "https://github.com/coding-house-jan2015/prototype",
+  "homepage": "https://github.com/amahajavon/memory",
   "authors": [
-    "Chyld Medford <chyld.medford@gmail.com>"
+    "Amah Ajavon <greatmindsent@gmail.com>"
   ],
   "license": "MIT",
   "dependencies": {
