@@ -100,15 +100,15 @@ function reset() {
 
 function createBacks() {
   var b1 = new Box(1, 'Rihanna', 'images/Rihanna.jpg');
-  var b2 = new Box(2, 'Kim', 'http://itcolossal.com/wp-content/uploads2/2013/05/390.jpg');
+  var b2 = new Box(2, 'Kim', 'images/kim.jpg');
   var b3 = new Box(3, 'Taylor', 'images/Taylor.jpg');
-  var b4 = new Box(4, 'Selena', 'http://33.media.tumblr.com/tumblr_lrkea9smUf1r337dko1_500.png');
-  var b5 = new Box(5, 'Jennifer', 'http://wallpaperscraft.com/image/28760/1280x960.jpg');
-  var b6 = new Box(6, 'Arianna', 'https://s-media-cache-ak0.pinimg.com/236x/ed/6b/e9/ed6be998c3ddf3192a485c8e40ef747d.jpg');
-  var b7 = new Box(7, 'Nicki', 'https://s-media-cache-ak0.pinimg.com/236x/a7/8b/36/a78b36681cf194f6fbf5926d2884f1bf.jpg');
-  var b8 = new Box(8, 'Demi', 'http://4.bp.blogspot.com/-H6kzhx2IjSU/TprbFqVI3gI/AAAAAAAAAI0/5ogwtMPmm5A/s1600/demi+lovato+is+ugly+08.png');
-  var b9 = new Box(9, 'Katy', 'http://41.media.tumblr.com/tumblr_m5dahrGRm01rq50fzo1_500.jpg');
-  var b10 = new Box(10, 'Beyonce', 'http://queermeup.com/wp-content/uploads/2014/02/Beyonce-6788.jpg');
+  var b4 = new Box(4, 'Selena', 'images/selena.png');
+  var b5 = new Box(5, 'Jennifer', 'images/Jennifer.jpg');
+  var b6 = new Box(6, 'Arianna', 'images/arianna.jpg');
+  var b7 = new Box(7, 'Nicki', 'images/nicki.jpg');
+  var b8 = new Box(8, 'Demi', 'images/demi.png');
+  var b9 = new Box(9, 'Katy', 'images/katy.jpg');
+  var b10 = new Box(10, 'Beyonce', 'images/Beyonce.jpg');
 
   backs.push(b1, b2, b3, b4, b5, b6, b7, b8, b9, b10);
   backs.push(b1, b2, b3, b4, b5, b6, b7, b8, b9, b10);
